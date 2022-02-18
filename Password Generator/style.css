@@ -1,0 +1,106 @@
+html, body {
+    text-align: center;
+    display: block;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto Mono', monospace;
+    ;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+header {
+    text-align: center;
+}
+
+#sub-head {
+    color: #48d883;
+}
+
+body {
+    color: white;
+    background-color: #1f2937;
+    text-align: center;
+    font: bold;
+}
+
+button {
+    border: none;
+    height: 42px;
+    left: 52px;
+    top: 287px;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px !important;
+    font-size: px;
+    border-radius: 5px;
+    background: #48d883;
+    width: 223px;
+    color: white;
+    text-align: center;
+    font: bold;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: black;
+    color: white;
+
+}
+
+#page-break {
+    margin-top: none;
+    margin-bottom: none;
+    display: flex;
+    border-bottom: solid 1px #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#btn-menu {
+    background-color: #1f2937;
+    padding: 14px 40px;
+    width: 200px;
+    height: 39px;
+    left: 52px;
+    color: #55F991;
+    height: 10px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font: bold;
+}
+
+#btn-1, #btn-2, #btn-3, #btn-4 {
+    background: #273549;
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    float: inherit;
+}
+
+#img-star {
+    float: left;
+}
+
+#img-line {
+    height: auto;
+    width: 900px;
+}
+
+.grid-container {
+    margin: 15px;
+}

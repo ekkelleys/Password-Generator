@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,500"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Password Generator</h1>
+      <h1 id="sub-head">Generate a Random Password !</h1>
+      <img src="Line 17.png" id="img-line" />
+      <h3>Select one of the four generated Passwords.</h3>
+    </header>
+    <button id="start-btn" type="button" onclick="generatePassword(), generatePassword2(), generatePassword3(), generatePassword4()">
+      <img src="icon-1.green.png" id="img-star" />Generate Passwords
+    </button>
+    <div id="page-break"><br /></div>
+
+    <div id="btn-menu">
+      <section class="grid-container">
+        <button id="btn-1" type="button" value="Show" onclick="copyString()"> 
+          <img src="icon-2.png" />
+        </button>
+      </section>
+
+      <section class="grid-container">
+        <button id="btn-2" type="button" value="Show" onclick="copyString2()">
+          <img src="icon-2.png" />
+        </button>
+      </section>
+
+      <section class="grid-container">
+        <button id="btn-3" type="button" value="Show" onclick="copyString3()">
+          <img src="icon-2.png" />
+        </button>
+      </section>
+
+      <section class="grid-container">
+        <button id="btn-4" type="button" value="Show"onclick="copyString4()">
+          <img src="icon-2.png" />
+        </button>
+      </section>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
